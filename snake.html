@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="snake.css">
+    <link rel="stylesheet" href="snake.js">
+</head>
+
+<body onkeydown="handleKeydown(event);">
+    <div class="area" id="area">
+        <div class="food" id="food"></div>
+        <div id="body"></div>
+    </div>
+    <button onclick="changeDirection('up')">UP</button>
+    <button onclick="changeDirection('down')">Donw</button>
+    <button onclick="changeDirection('right')">Right</button>
+    <button onclick="changeDirection('left')">Left</button>
+    <div id="score"></div>
+</body>
+
+</html>

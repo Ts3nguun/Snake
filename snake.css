@@ -1,0 +1,21 @@
+.area {
+    width: 800px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+}
+
+.part {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
